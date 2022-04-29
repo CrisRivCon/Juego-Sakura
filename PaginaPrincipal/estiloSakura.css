@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+BODY {
+    position: relative;
+    background-image: url("img/f3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+}
+#cabecera, 
+#pie,
+#cabe {
+    width: 100%;
+}
+div#cabe,
+#cabecera {
+    position: fixed;
+    top: 0;
+    height: 3%;
+    min-height: 40px;
+    z-index: 5;
+}
+#cabe {
+    opacity: 0.5;
+    background-color: #F29191;
+}
+.vida {
+    height: 100%;
+    float: left;
+}
+.score,
+.sco{
+    position: absolute;
+    border: 2px solid black;
+    right: 5%;
+    width: 15%;
+    height: 100%;
+    text-align: right;
+}
+.sco{
+    background-color: black;
+    opacity: 0.7;
+}
+.score #puntos{
+    color: whitesmoke;
+    padding-top: 5%;
+}
+#c1 {
+    position: absolute;
+    height: 100%;
+    right: 0;
+}
+#c2 {
+    position: absolute;
+    height: 100%;
+    right: 20%;
+}
+#pie {
+    position: fixed;
+    bottom: 0;
+    height: 15%;
+    max-height: 200px;         
+}
+#cuerpo {
+    position: relative;
+    top: 8%;
+    width: 100%;
+    z-index: 1;
+}
+#hojas {
+   background: url(img/fondo1.gif);
+    position: fixed;
+    display: block;
+    top: 8%;
+    width: 100%;
+    height: 50%;
+    z-index: 3;
+}
+#pj {
+    position: fixed;
+    display: block;
+    bottom: 3%;
+    margin-bottom: 0;
+    width: 15%;
+    max-height: 223px;
+    max-width: 160.3px;
+    z-index: 3;
+}
+.bala{
+    position: fixed;
+    left: 88px;
+    display: none;
+    z-index: 2;
+    width: 1.7%;
+    max-width: 20px;
+}
+.enemigo {
+    position: fixed;
+    display: none;
+    bottom: 90%;
+    left: 0;
+    z-index: 5;
+    width: 10%;
+    max-width: 120px;
+    max-height: 120px;
+}
+.enemigoVida {
+    position: fixed;
+    display: block;
+    bottom: 90%;
+    left: 0;
+    z-index: 5;
+    width: 5%;
+    max-width: 120px;
+    max-height: 120px;
+    min-width: 80px;
+    min-height: 80px;
+}
+.enemigoCarta {
+    position: fixed;
+    display: block;
+    bottom: 90%;
+    left: 0;
+    z-index: 5;
+    width: 7%;
+    max-width: 120px;
+    max-height: 150px;
+}
+.enemigoSuelo {
+    position: fixed;
+    display: none;
+    bottom: 90%;
+    left: 0;
+    z-index: 5;
+    width: 10%;
+    max-width: 110px;
+}
+.enemigoMuerto {
+    position: fixed;
+    display: block;
+    z-index: 5;
+    width: 9%;
+    max-width: 120px;
+    max-height: 120px;
+}

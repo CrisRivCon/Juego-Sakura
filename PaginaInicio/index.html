@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<HTML lang="es">
+    <HEAD>
+        <META charset="UTF-8"/>
+        <META name="author" content="Cristina Rivera Contioso"/>
+        <META name="viewport" content="width=device-width,initial-scale=1.0"/>
+        <link href="estilosInicio.css" rel="stylesheet" type="text/css"/>
+    </HEAD>
+    <BODY>
+        <DIV class="cuerpo">
+            <DIV id="primerCuadro">
+                <DIV><P>Pulsa las teclas de navegación para moverte.</P></DIV>
+                <DIV><P><img class="teclas" src="izquierda.png"/> <img class="teclas" src="derecha.png"/></P></DIV>
+                <P><IMG class="captura" src="captura1.png"/></P>
+            </DIV>
+            <DIV id="segundoCuadro">
+                <P>Pulsa la tecla espacio para disparar.</P>
+                <P><img class="teclaesp" src="espacio.png"/></P>
+                <P><IMG class="captura" src="captura2.png"/></P>
+            </DIV>
+            <DIV id="tercerCuadro">
+                <P>Consigue bonus disparando a los objetos extras que caen.</P>
+                <img class="captura" id="bonus" src="captura3.png"/>
+            </DIV>
+            <FORM>
+            <!--<DIV id="nombre">
+                    <LABEL for="nom">Introduce tu nombre:</LABEL>
+                    <INPUT id="nom" name="nom" type="text" required="required"/>
+            </DIV>-->
+            <DIV id="empezar">
+                <BUTTON id="jugar" name="jugar" type="button">JUGAR</BUTTON>
+            </DIV>
+            </FORM>
+        </DIV>
+        <script type="text/javascript">
+            var boton = document.getElementById("jugar");
+            boton.addEventListener("click", function(event){
+                location.href = "../PaginaPrincipal/juegoSakura.html";
+                })
+            window.addEventListener("keypress", function(event){
+                    if(event.keyCode == 13){
+                        location.href = "../PaginaPrincipal/juegoSakura.html";
+                    }
+                })
+        </script>
+    </BODY>
+</HTML>

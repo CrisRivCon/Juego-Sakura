@@ -1,0 +1,78 @@
+*{box-sizing: border-box;}
+BODY{
+    background-image: url(../PaginaPrincipal/img/1064067.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.cuerpo{
+    background-color: black;
+    border: 2px solid black;
+    column-gap: 10%;
+    display: grid;
+    grid-template-columns: 20% 20% 20%;
+    grid-template-rows: 50% 30%;
+    margin: 6% auto;
+    min-width: 365px;
+    opacity: 0.7;
+    padding: 10px;
+    place-content: center center;
+    width: 80%;
+
+}
+#primerCuadro,
+#segundoCuadro,
+#tercerCuadro{
+    border: 3px ridge gray;
+    color: bisque;
+    display: grid;
+    grid-template-rows: 20% 20% 20%;
+    font-size:larger;
+    height: 100%;
+    padding: 5%;
+    margin-top: 20%;
+    text-align: center;
+    min-height: 400px;
+    min-width: 100px;
+    height: min-content;
+}
+IMG{
+    margin: auto;
+}
+.captura{
+    border: 1px solid wheat;
+    margin-bottom: 1%;
+    width: 90%;
+}
+.teclas{
+    width: 30%;
+}
+.teclaesp{
+    width: 80%;
+}
+#bonus{
+    margin-top: 53%;
+    margin-bottom: 10%;
+    grid-row: 2/4;
+}
+FORM{
+    grid-column: 1/4;
+}
+#nombre{
+    color: bisque;
+    font-size: 1.5em;
+    min-height: 100px;
+    padding-top: 8%;
+    text-align: center;
+}
+#empezar{
+    min-height: 100px;
+    padding: 8%;
+    text-align: center;
+}
+#jugar{
+    margin: auto;
+    font-size: larger;
+    height: 50px;
+    width: 200px;
+}

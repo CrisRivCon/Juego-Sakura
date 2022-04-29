@@ -1,0 +1,48 @@
+*{box-sizing: border-box;}
+BODY{
+    /*background-image: url(../PaginaPrincipal/img/1064067.jpg);*/
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.cuerpoGanador{
+    background-color: black;
+    border: 2px solid black;
+    display: none;
+    grid-template-columns: 80%;
+    grid-template-rows: 50% 50%;
+    justify-content: center;
+    margin: 9% auto;
+    min-width: 300px;
+    opacity: 0.7;
+    padding: 10px;
+    width: 80%;
+    height: fit-content;
+    z-index: 7;
+
+}
+#primerCuadro,
+#segundoCuadro,
+#tercerCuadro{
+    align-items: center;
+    border: 3px ridge gray;
+    color: bisque;
+    font-size: 1.5em;
+    height: 300px;
+    min-width: 230px;
+    padding: 5%;
+    text-align: center;
+}
+#primerCuadro P{
+    margin: 40px auto;
+}
+#empezar{
+    min-height: 50px;
+    text-align: center;
+}
+#jugar{
+    margin: 10% auto;
+    font-size: larger;
+    height: 50px;
+    width: 200px;
+}
